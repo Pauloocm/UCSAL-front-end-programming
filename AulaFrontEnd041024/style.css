@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unicdf{
+    color: orange;
+    font-weight: 100;
+}
+
+html,
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.minhaclasse, p{
+
+}
+
+.container{
+    display: flex;
+    min-width: 800px;
+    flex-direction: column;
+    height: 100%;
+}
+.meu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    padding-right: 20px;
+    border-radius: 16px 16px 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 5px 7px 2px rgb(0, 0, 0, 0.5);
+}
+
+.figura{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.figura, img{
+    position: relative;
+    width: 60px;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+.meu-footer{
+    background-color: #555;
+    color: darkorange;
+    text-align: center;
+    border-radius: 0, 0, 16px, 16px;
+    padding: 5px;
+    padding-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conteudo{
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.minha-nav{
+
+}
+
+.meu
+
+.minha-section{
+    position: relative;
+}
